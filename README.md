@@ -4,7 +4,7 @@
   <p><b>The Floating Utility Notch & Universal Quick-Access HUD for Windows</b></p>
 
   <p>
-    <a href="https://apps.microsoft.com/detail/9NT7MW2M4R45"><img src="https://img.shields.io/badge/Microsoft%20Store-Live_v0.2.2-0078D4?style=for-the-badge&logo=microsoftstore&logoColor=white" alt="Microsoft Store" /></a>
+    <a href="https://apps.microsoft.com/detail/9NT7MW2M4R45"><img src="https://img.shields.io/badge/Microsoft%20Store-Live_v0.2.3-0078D4?style=for-the-badge&logo=microsoftstore&logoColor=white" alt="Microsoft Store" /></a>
     <a href="https://github.com/Kaifazad/Orbit-Notch/releases"><img src="https://img.shields.io/badge/Download-Releases-10B981?style=for-the-badge&logo=windows11&logoColor=white" alt="Download" /></a>
     <a href="PRIVACY.md"><img src="https://img.shields.io/badge/Privacy-100%25%20Offline-blueviolet?style=for-the-badge&logo=shield" alt="Privacy" /></a>
     <img src="https://img.shields.io/badge/License-Proprietary-F59E0B?style=for-the-badge" alt="License" />
@@ -12,7 +12,7 @@
 
   <p>
     <a href="https://apps.microsoft.com/detail/9NT7MW2M4R45"><b>Get on Microsoft Store</b></a> &nbsp;•&nbsp;
-    <a href="https://topnotchapp.vercel.app"><b>Official Website</b></a> &nbsp;•&nbsp;
+    <a href="https://orbit-notch.vercel.app/"><b>Official Website</b></a> &nbsp;•&nbsp;
     <a href="#-downloads"><b>Downloads</b></a> &nbsp;•&nbsp;
     <a href="#-features"><b>Features</b></a> &nbsp;•&nbsp;
     <a href="#-shortcuts"><b>Shortcuts</b></a> &nbsp;•&nbsp;
@@ -59,8 +59,8 @@ Choose your preferred way to install:
 | :--- | :--- | :--- | :--- |
 | **Microsoft Store** | Official Store App | Automatic background updates & verified security | [**Get from Microsoft Store**](https://apps.microsoft.com/detail/9NT7MW2M4R45) |
 | **Windows Package Manager** | `winget` | Command-line quick install | `winget install orbitnotch` |
-| **Direct MSIX Package** | `.msix` Container (v0.2.2.0) | Sideload & Enterprise deployment | [**Download OrbitNotch.msix (Releases)**](https://github.com/Kaifazad/Orbit-Notch/releases) |
-| **Standalone Setup** | `.exe` Installer | Traditional desktop installer | [**Download Orbit Notch Setup (.exe)**](https://github.com/Kaifazad/Orbit-Notch/releases) |
+| **Direct MSIX Package** | `.msix` Container (v0.2.3.0) | Sideload & Enterprise deployment | [**Download OrbitNotch.msix (Releases)**](https://github.com/Kaifazad/Orbit-Notch/releases) |
+| **Portable x64 Bundle** | `.zip` Archive (v0.2.3) | Portable standalone run | [**Download Windows x64 (.zip)**](https://github.com/Kaifazad/Orbit-Notch/releases) |
 
 > **System Requirements**: Windows 11 or Windows 10 (64-bit). No administrator elevation required (`asInvoker`).
 
@@ -81,16 +81,16 @@ Choose your preferred way to install:
 - **Hardware Sliders**: Smooth, non-blocking Display Brightness and Master Volume controls.
 - **Bluetooth Quick Manager**: Live earbud/headphone battery indicators (e.g. AirPods, Galaxy Buds).
 - **Network Throughput**: Real-time download and upload speed meters powered by Win32 `IPHLPAPI`.
-- **System Telemetry**: CPU load, RAM utilization, and one-click RAM Trim.
+- **System Telemetry & Temperatures**: CPU load, RAM utilization, one-click RAM Trim, and zero-driver system/GPU temperatures (`°C` / `°F`).
 
 ### 🗄️ 3. Universal Parking Shelf & Offline Converter
 - **Drag & Drop Anything**: Drag images, files, or text from web browsers, File Explorer, or your desktop directly onto the notch to park them.
 - **Offline Image Converter**: Convert images between WebP, PNG, JPEG, ICO, and PDF with 100% offline local processing.
 - **Clipboard Parking (`Ctrl + V`)**: Press <kbd>Ctrl+V</kbd> while the shelf is open to instantly store clipboard items.
 
-### 🎯 4. Tactile Drag-to-Reposition
-- Hover over the right edge of the notch to reveal the tactile **6-dot grip handle**.
-- Slide Orbit Notch horizontally along your top screen bezel so it never blocks browser tabs or web cameras.
+### 🎯 4. Free Screen Placement & Drag-to-Reposition
+- Grab and drag the **minimized pill**—or the **top header bar** when expanded—anywhere horizontally along the top bezel or freely anywhere on your screen (`X + Y`).
+- Automatically switches to a floating capsule off-edge and opens upward near the bottom of your display so panels never clip.
 
 ### ⏱️ 5. Focus Timers & Pomodoro
 - **Millisecond Stopwatch**: Instant split lap recording.
@@ -135,8 +135,8 @@ No. Orbit Notch is strictly offline-first. Clipboard content and parked files ar
 </details>
 
 <details>
-<summary><b>How do I move the notch to the left or right?</b></summary>
-Hover your mouse over the right side of the notch to reveal the 6-dot grip handle. Click and drag it horizontally anywhere along the top edge of your screen.
+<summary><b>How do I move the notch anywhere on my screen?</b></summary>
+Hover over the minimized pill (or the top header bar when expanded) until the cursor turns into a grab hand, then click and drag it freely anywhere along the top edge or across your screen. You can also choose Top Left / Top Center / Top Right presets or reset position inside <b>Settings → Screen & Alignment</b>.
 </details>
 
 <details>
@@ -148,7 +148,7 @@ Yes! Open Orbit Notch Settings (<kbd>Ctrl</kbd> + <kbd>Space</kbd> &rarr; Gear i
 
 ## 📄 License & Contact
 
-- **Website**: [https://topnotchapp.vercel.app](https://topnotchapp.vercel.app)
+- **Website**: [https://orbit-notch.vercel.app/](https://orbit-notch.vercel.app/)
 - **Microsoft Store**: [https://apps.microsoft.com/detail/9NT7MW2M4R45](https://apps.microsoft.com/detail/9NT7MW2M4R45)
 - **Privacy Policy**: Read our [Privacy Policy](PRIVACY.md).
 - **Developer**: Kaif Azad ([itzkaifazad@gmail.com](mailto:itzkaifazad@gmail.com)).
