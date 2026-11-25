@@ -26,28 +26,57 @@
 
 **Orbit Notch** is an ultra-fast, minimalist floating utility notch and dynamic HUD designed natively for Windows 11 and Windows 10. Built from the ground up with high-performance native Rust and modern Svelte 5, it sits lightly at the top of your screen to elevate your daily workflow without stealing focus or cluttering your screen.
 
-Resting discreetly at the top bezel of your display as an unobtrusive 36px hardware-style digital clock, Orbit Notch expands with smooth spring physics whenever you copy text, grab a screenshot, play music, or drag files. With a single click or keyboard shortcut (<kbd>Ctrl</kbd> + <kbd>Space</kbd> or <kbd>Alt</kbd> + <kbd>\</kbd>), it blooms into a productivity dashboard, Fluent Control Center with live brightness and volume sliders, Bluetooth battery indicators, real-time network throughput, and an offline image converter.
+Resting discreetly at the top bezel of your display as an unobtrusive 36px hardware-style digital clock, Orbit Notch expands with smooth spring physics whenever you copy text, grab a screenshot, play music, or drag files. With a single click or keyboard shortcut (<kbd>Ctrl</kbd> + <kbd>Space</kbd> or <kbd>Alt</kbd> + <kbd>&#92;</kbd>), it blooms into a productivity dashboard, Fluent Control Center with live brightness and volume sliders, system temperatures, Bluetooth battery indicators, real-time network throughput, and an offline image converter.
+
+---
+
+## 🎬 Live Walkthrough
+
+<div align="center">
+  <a href="https://github.com/Kaifazad/Orbit-Notch/raw/main/assets/Screen-Recording.mp4">
+    <img src="assets/demo.gif" width="92%" alt="Orbit Notch Live Walkthrough" />
+  </a>
+  <p>
+    <sub>
+      <a href="https://github.com/Kaifazad/Orbit-Notch/raw/main/assets/Screen-Recording.mp4"><b>Watch Full HD Screen Recording (MP4)</b></a>
+      &nbsp;•&nbsp;
+      <a href="https://orbit-notch.vercel.app/"><b>Try Interactive Web Showcase</b></a>
+    </sub>
+  </p>
+</div>
 
 ---
 
 ## 📸 Desktop Previews
 
-<div align="center">
-  <img src="assets/Screen1.png" width="90%" alt="Orbit Notch Control Center" />
-  <p><i><b>Home & Fluent Control Center</b>: Display brightness and sound sliders, Bluetooth battery indicators, live network throughput (↓↑), and system vitals.</i></p>
-  <br />
-  <img src="assets/Screen2.png" width="90%" alt="Orbit Notch Resting Clock" />
-  <p><i><b>Resting Dynamic Notch</b>: Minimalist 36px live clock docked seamlessly to the top bezel.</i></p>
-  <br />
-  <img src="assets/Screen3.png" width="90%" alt="Orbit Notch Quick Notes" />
-  <p><i><b>Quick Notes & Markdown Notebook</b>: Always-ready distraction-free notes stored in local SQLite.</i></p>
-  <br />
-  <img src="assets/Screen4.png" width="90%" alt="Orbit Notch LED Marquee" />
-  <p><i><b>LED Dot-Matrix Marquee</b>: 64×16 OLED text banners streaming across the collapsed notch.</i></p>
-  <br />
-  <img src="assets/Screen5.png" width="90%" alt="Orbit Notch Calendar & Agenda" />
-  <p><i><b>Calendar & Reminders</b>: Monthly deadlines, meeting checklists, and hydration nudges.</i></p>
-</div>
+<table>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="assets/Screen1.png" width="92%" alt="Orbit Notch Control Center" /><br />
+      <sub><b>Home & Fluent Control Center</b> — Display brightness & sound sliders, Bluetooth battery indicators, live network throughput (↓↑), and system vitals.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/Screen2.png" width="100%" alt="Orbit Notch Resting Clock" /><br />
+      <sub><b>Resting Dynamic Notch</b> — Minimalist 36px live clock docked to your display (or dragged anywhere on screen).</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/Screen3.png" width="100%" alt="Orbit Notch Quick Notes" /><br />
+      <sub><b>Quick Notes & Notebook</b> — Distraction-free notes & snippets saved locally in SQLite.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/Screen4.png" width="100%" alt="Orbit Notch LED Marquee" /><br />
+      <sub><b>LED Dot-Matrix Marquee</b> — 64×16 OLED text banners streaming across the collapsed notch.</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/Screen5.png" width="100%" alt="Orbit Notch Calendar & Agenda" /><br />
+      <sub><b>Calendar & Reminders</b> — Monthly deadlines, meeting checklists, and hydration nudges.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -115,9 +144,9 @@ Choose your preferred way to install:
 | Shortcut | Action |
 | :--- | :--- |
 | <kbd>Ctrl</kbd> + <kbd>Space</kbd> | Toggle Orbit Notch Shelf & Control Center |
-| <kbd>Alt</kbd> + <kbd>\</kbd> | Alternative Quick Flyout Toggle |
-| <kbd>Alt</kbd> + <kbd>P</kbd> | Quick Pomodoro Focus Timer |
-| <kbd>Alt</kbd> + <kbd>B</kbd> | Quick Bookmarks / Battery Info |
+| <kbd>Alt</kbd> + <kbd>&#92;</kbd> | Quick Expand to Home Module |
+| <kbd>Alt</kbd> + <kbd>P</kbd> | Open Preferences & Settings |
+| <kbd>Alt</kbd> + <kbd>B</kbd> | Toggle Flyout |
 | <kbd>Esc</kbd> | Collapse Flyout back into resting notch |
 
 ---
